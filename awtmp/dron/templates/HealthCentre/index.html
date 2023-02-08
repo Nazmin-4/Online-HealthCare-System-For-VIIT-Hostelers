@@ -1,0 +1,143 @@
+{% extends "HealthCentre/layout.html" %}
+{% block title %}
+Online HealthCare
+{% endblock %}
+{% block style %}
+    
+{% endblock %}
+{% block bodytag %}
+
+  {% load static %}
+  <body style="background-repeat:no-repeat;background-size:cover;background-position:center;background-image:url('https://slidescorner.com/wp-content/uploads/2022/11/01-Drake-Healthcare-and-Medical-Free-PPT-Background-by-SlidesCorner.com_-1024x576.jpg')">
+
+{% endblock %}
+{% block body %}
+{%load static %}
+<div class="about">
+    <div class="main-about">
+        <div class="inner-about">
+            <div class="about-content">
+                <h1>about us</h1>
+            <p>we are here to help you and your loved ones facing difficulty in going about their daily routines,we have helped all the patients to recover safely and comfortably in their own homes.</p>
+            <a href="{%url 'register'%}">Register</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+<div class="our-services">
+    <div class="service-content">
+        <div class="left-service-content">
+            <h1>Our special services</h1>
+            <p></p>
+        </div>
+    </div>
+
+    <div class="main-services">
+        <div class="inner-services-content">
+            <div class="service-icon">  <a href="{%url 'onlineprescription'%}"><i class="fas fa-notes-medical"></i></a>
+            </div>
+           <h2>health care</h2>
+            <p></p>
+
+        </div>
+
+        <div class="inner-services-content">
+            <div class="service-icon">
+                <a href="{%url 'emergency'%}"> <i class="fas fa-hospital-user"></i></a>
+            </div>
+            <h2>emergency</h2>
+            <p></p>
+            
+        </div>
+
+        <div class="inner-services-content">
+            <div class="service-icon">
+                <a href="{%url 'onlineprescription'%}">    <i class="fas fa-user-md"></i></a>
+            </div>
+            <h2>online prescription</h2>
+            <p></p>
+            
+        </div>
+    </div>
+</div>
+
+
+{% comment %} <div class="gallery">
+    <h1>Gallery</h1>
+    <div class="main-gallery">
+        <div class="inner-gallery">
+            <img src="{% static 'HealthCentre/images/gal1.jpg' %}" alt="">
+        </div>
+
+        <div class="inner-gallery">
+            <img src="{% static 'HealthCentre/images/gal2.jpg' %}" alt="">
+        </div>
+
+        <div class="inner-gallery">
+            <img src="{% static 'HealthCentre/images/gal3.jpg' %}" alt="">
+        </div>
+
+        <div class="inner-gallery">
+            <img src="{% static 'HealthCentre/images/gal4.jpg'%}" alt="">
+        </div> {% endcomment %}
+
+        {% comment %} <div class="inner-gallery">
+            <img src="{% static 'HealthCentre/images/gal5.jpg'%}" alt="">
+        </div>
+
+        <div class="inner-gallery">
+            <img src="{% static 'HealthCentre/images/gal6.jpg'%}" alt="">
+        </div> {% endcomment %}
+    {% comment %} </div>
+</div> {% endcomment %}
+
+
+<div class="why-choseus">
+<div class="main-chose">
+    {% comment %} <div class="inner-chose">
+        <img src="{% static 'HealthCentre/images/cute.jpg'%}" alt="">
+    </div> {% endcomment %}
+
+    <div class="inner-chose">
+        <h1>why chose us </h1>
+
+        <div class="inner-chose-content">
+            <div class="main-inner-chose">
+                <div class="chose-icon" id="ws">
+                    <i class="fas fa-notes-medical"></i>
+                </div>
+                <div class="icon-content" >
+                    <p id="wa">Our team has years of specialized experience to provide professional home healthcare services. </p>
+                </div>
+            </div>
+
+            <div class="main-inner-chose">
+                <div class="chose-icon">
+                    <i class="fas fa-hospital-user"></i>
+                    
+                </div>
+                <div class="icon-content">
+                    <p>We have a versatile team of certified nurses and attendants that specialize in providing professional home healthcare services. </p>
+                </div>
+            </div>
+
+            <div class="main-inner-chose">
+                <div class="chose-icon">
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <div class="icon-content">
+                    <p>We have a completely transparent system that is designed to be with the patient at every stage of the process. </p>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+</div>
+</div>
+
+
+
+   
